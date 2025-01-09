@@ -185,7 +185,6 @@
 							validationErrors = await handleRegisterValidation(userData);
 						}}
 					/>
-
 					{#if validationErrors?.firstName && isFirstNameTouched}
 						<small class="text-dangerColor form-text">{validationErrors?.firstName}</small>
 					{/if}
